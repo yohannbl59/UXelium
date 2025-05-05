@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    height: 117px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../images/logo.png);
+    height: 54px;
+    width: 250px;
+    background-size: 250px;
+}
