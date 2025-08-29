@@ -1,0 +1,112 @@
+section, .home1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+  color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-image: url(/images/hero1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+}
+  
+  .hero-text {
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .hero-text h1 span {
+    font-weight: 800;
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .iconabout{
+    background-color: #2659ff3e;
+    color: #2658FF;
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3, .titreabout{
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5em;
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: #f9fafb;
+    background-size: cover;
+    margin-top: 5%;
+  margin-bottom: 5%;
+  }
+  
+  .me-text {
+    max-width: 500px;
+  }
+  
+  .me-text h3 {
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5em;
+  }
+  
+  .me-text h1 span {
+    font-weight: 800;
+    color: #111827;
+  }
+  
+  .me-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #4b5563;
+  }
+  
+  .me-illustration {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 606 / 431;
+    background-image: url('/images/me.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    background-size: contain;
+  }
